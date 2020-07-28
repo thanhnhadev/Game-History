@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/backgroundpickluyentap"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slide.MoDauLuyenTapActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="142dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="234dp"
+        app:srcCompat="@drawable/danhnhan" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="190dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="-151dp"
+        android:layout_marginTop="178dp"
+        android:layout_toEndOf="@+id/imageView"
+        app:srcCompat="@drawable/caunoi" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="22dp"
+        android:layout_toStartOf="@+id/btnbatdauluyentap"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/title_luyen_tap"
+        android:textAlignment="center"
+        android:textColor="#F8FDFD"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="#80B3ADAD"
+        android:text="Trong 10 phút bạn sẽ trả lời 20 câu hỏi theo 2 lĩnh vực DANH NHÂN và CÂU NÓI nổi tiếng mà bạn tiến hành chọn dưới đây sẵn sàng chưa nào ! "
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rdgluyentap"
+        android:layout_width="177dp"
+        android:layout_height="277dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="281dp">
+
+        <RadioButton
+            android:id="@+id/rddanhnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="Danh Nhân" />
+
+        <RadioButton
+            android:id="@+id/rdcaunoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Câu Nói" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnbatdauluyentap"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:background="#19D1C4C4"
+        android:text="BẮT ĐẦU !"
+
+        android:textColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnquaylailuyentap"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#0CD1C4C4"
+        android:text="Quay lại!"
+        android:textColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="2dp"
+        android:layout_toStartOf="@+id/btnbatdauluyentap"
+        android:width="5dp"
+        android:background="#4CAF50"
+        android:textColor="#E0DFDF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/btnquaylailuyentap"
+        android:width="5dp"
+        android:background="#B53F51"
+        android:textColor="#E0DFDF" />
+</RelativeLayout>

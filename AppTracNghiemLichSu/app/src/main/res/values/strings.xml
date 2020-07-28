@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppTracNghiemLichSu</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+
+    <string name="title_luyen_tap">LUYỆN TẬP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
