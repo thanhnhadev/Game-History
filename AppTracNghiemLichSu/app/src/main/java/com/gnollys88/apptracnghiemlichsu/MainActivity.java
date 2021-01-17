@@ -30,19 +30,19 @@ public Dialog dialog;
         trainghiem();
         thoat();
         bangvang();
-        gioithieu();
+//        gioithieu();
     }
 
-    private void gioithieu() {
-        btngioithieu=findViewById(R.id.btnthietlap);
-        btngioithieu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, GioiThieuActivity.class);
-                startActivity(i);
-            }
-        });
-    }
+//    private void gioithieu() {
+//        btngioithieu=findViewById(R.id.btnthietlap);
+//        btngioithieu.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(MainActivity.this, GioiThieuActivity.class);
+//                startActivity(i);
+//            }
+//        });
+//    }
 
     private void bangvang() {
         btnbangvang=findViewById(R.id.btnBangVang);
